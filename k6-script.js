@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 
-const BASE_URL = 'https://cours-bts-ciel.caseyminio.workers.dev';
+const BASE_URL = 'https://www.alcyon.com/';
 
 export const options = {
   scenarios: {
